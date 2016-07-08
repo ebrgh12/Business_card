@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Business_card</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_text">Business : Helpless_Student</string>
+    <string name="addr">Address:</string>
+    <string name="addr2">201 South,4th street, San Jose, CA</string>
+    <string name="abt">About:</string>
+    <string name="abt2">Helpless student is a non government organization, which is striving to help students, providing information about there career.</string>
+    <string name="email">Email:</string>
+    <string name="email2">girish12ramesh@gmail.com</string>
+    <string name="phone">Phone:</string>
+    <string name="phone2">+1 4085137965</string>
+    <string name="web">Website:</string>
+    <string name="web2">www.xyz.com</string>
+</resources>

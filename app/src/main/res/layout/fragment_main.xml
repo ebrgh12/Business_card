@@ -1,0 +1,155 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollLayout"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:fillViewport="true"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+     android:paddingLeft="@dimen/activity_horizontal_margin"
+     android:paddingRight="@dimen/activity_horizontal_margin"
+     android:paddingTop="@dimen/activity_vertical_margin"
+     tools:context="com.example.android.business_card.MainActivityFragment"
+     tools:showIn="@layout/activity_main"
+     android:background="@android:color/holo_blue_light" >
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/hs1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:textSize="20sp"
+        android:textColorHighlight="#29B6F6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/addr"
+        android:id="@+id/addr"
+        android:textStyle="bold"
+
+        android:layout_alignTop="@+id/addr2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/addr2"
+        android:id="@+id/addr2"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/abtcont"
+        android:layout_alignLeft="@+id/email_address"
+        android:layout_alignStart="@+id/email_address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/abt"
+        android:id="@+id/abttxt"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/abtcont"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/abt2"
+        android:id="@+id/abtcont"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/addr"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/email2"
+        android:id="@+id/email_address"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/addr2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/phone2"
+        android:id="@+id/ph2"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/email_address"
+        android:layout_alignLeft="@+id/email_address"
+        android:layout_alignStart="@+id/email_address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/web"
+        android:id="@+id/wb1"
+        android:layout_below="@+id/ph2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/email"
+        android:id="@+id/email1"
+        android:layout_alignTop="@+id/email_address"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/phone"
+        android:id="@+id/ph"
+        android:layout_alignTop="@+id/ph2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/web2"
+        android:id="@+id/wb2"
+        android:layout_alignTop="@+id/wb1"
+        android:layout_alignRight="@+id/ph2"
+        android:layout_alignEnd="@+id/ph2" />
+
+</RelativeLayout>
+</ScrollView>
